@@ -4,6 +4,6 @@ const dev = new Koa();
 
 dev.use(serve(__dirname + '/./dist'));
 
-dev.listen(1341);
+dev.listen(5337);
 
 module.exports = dev;
